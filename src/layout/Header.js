@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg bg-dark fixed-top">
       <h1>Marko Fithian &nbsp;</h1>
       <button
         className="navbar-toggler"

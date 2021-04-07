@@ -50,6 +50,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      <br />
     </div>
   );
 }

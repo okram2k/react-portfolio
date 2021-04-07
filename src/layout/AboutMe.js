@@ -3,13 +3,7 @@ import react from "react";
 function AboutMe() {
   return (
     <div className="container">
-      <nav aria-label="breadcrumb">
-        <ol className="breadcrumb">
-          <li className="breadcrumb-item active" aria-current="page">
-            <h1 id="about">About</h1>
-          </li>
-        </ol>
-      </nav>
+      
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <h1 className="display-4">Passions</h1>
@@ -41,42 +35,31 @@ function AboutMe() {
               <div className="list-group">
                 <div className="list-group-item">
                   <div className="d-flex w-100 justify-content-between">
-                    <h5 className="mb-1">High School Diploma</h5>
-                    <p>2002</p>
-                  </div>
-                  <p className="mb-1">Skyline Highschool. Mesa, Arizona</p>
-                </div>
-                <div className="list-group-item">
-                  <div className="d-flex w-100 justify-content-between">
                     <h5 className="mb-1">
-                      Associate Degree in Science (Physics)
+                    Certificate: Software Engineering - 2021
                     </h5>
-                    <p>2014</p>
                   </div>
-                  <p className="mb-1">Mesa Community College. Mesa, Arizona</p>
+                  <p className="mb-1">Thinkful. Online.</p>
                 </div>
                 <div className="list-group-item">
                   <div className="d-flex w-100 justify-content-between">
-                    <h5 className="mb-1">Robotics Engineering</h5>
-                    <p>2014-2018</p>
+                    <h5 className="mb-1">Certificate: Responsive Web Design - 2020</h5>
                   </div>
                   <p className="mb-1">
-                    Arizona State University. Tempe, Arizona
+                  FreeCodeCamp. Online
                   </p>
                 </div>
                 <div className="list-group-item">
                   <div className="d-flex w-100 justify-content-between">
-                    <h5 className="mb-1">Certificate: Responsive Web Design</h5>
-                    <p>2020</p>
+                    <h5 className="mb-1">Robotics Engineering - 2014-2018</h5>
                   </div>
-                  <p className="mb-1">FreeCodeCamp. Online</p>
+                  <p className="mb-1">Arizona State University. Tempe, Arizona</p>
                 </div>
                 <div className="list-group-item">
                   <div className="d-flex w-100 justify-content-between">
-                    <h5 className="mb-1">Certificate: Software Engineering</h5>
-                    <p>2021</p>
+                    <h5 className="mb-1">Associate Degree in Science (Physics) - 2014</h5>
                   </div>
-                  <p className="mb-1">Thinkful. Online.</p>
+                  <p className="mb-1">Mesa Community College. Mesa, Arizona</p>
                 </div>
               </div>
             </div>
@@ -97,7 +80,9 @@ function AboutMe() {
                       <li className="list-group-item">HTML5</li>
                       <li className="list-group-item">CSS3</li>
                     </ul>
+                    <br />
                   </div>
+                  
                   <div className="col">
                     <div className="card-header">Back-End</div>
                     <ul className="list-group list-group-flush">
