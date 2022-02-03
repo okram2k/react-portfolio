@@ -78,6 +78,7 @@ function AboutMe() {
                     <div className="card-header">Front-End</div>
                     <ul className="list-group list-group-flush">
                       <li className="list-group-item">JavaScript</li>
+                      <li className="list-group-item">TypeScript</li>
                       <li className="list-group-item">ES6</li>
                       <li className="list-group-item">React</li>
                       <li className="list-group-item">Redux</li>
