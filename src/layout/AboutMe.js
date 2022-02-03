@@ -3,7 +3,6 @@ import react from "react";
 function AboutMe() {
   return (
     <div className="container">
-      
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
           <h1 className="display-4">Passions</h1>
@@ -36,28 +35,32 @@ function AboutMe() {
                 <div className="list-group-item">
                   <div className="d-flex w-100 justify-content-between">
                     <h5 className="mb-1">
-                    Certificate: Software Engineering - 2021
+                      Certificate: Software Engineering - 2021
                     </h5>
                   </div>
                   <p className="mb-1">Thinkful. Online.</p>
                 </div>
                 <div className="list-group-item">
                   <div className="d-flex w-100 justify-content-between">
-                    <h5 className="mb-1">Certificate: Responsive Web Design - 2020</h5>
+                    <h5 className="mb-1">
+                      Certificate: Responsive Web Design - 2020
+                    </h5>
                   </div>
-                  <p className="mb-1">
-                  FreeCodeCamp. Online
-                  </p>
+                  <p className="mb-1">FreeCodeCamp. Online</p>
                 </div>
                 <div className="list-group-item">
                   <div className="d-flex w-100 justify-content-between">
                     <h5 className="mb-1">Robotics Engineering - 2014-2018</h5>
                   </div>
-                  <p className="mb-1">Arizona State University. Tempe, Arizona</p>
+                  <p className="mb-1">
+                    Arizona State University. Tempe, Arizona
+                  </p>
                 </div>
                 <div className="list-group-item">
                   <div className="d-flex w-100 justify-content-between">
-                    <h5 className="mb-1">Associate Degree in Science (Physics) - 2014</h5>
+                    <h5 className="mb-1">
+                      Associate Degree in Science (Physics) - 2014
+                    </h5>
                   </div>
                   <p className="mb-1">Mesa Community College. Mesa, Arizona</p>
                 </div>
@@ -77,12 +80,16 @@ function AboutMe() {
                       <li className="list-group-item">JavaScript</li>
                       <li className="list-group-item">ES6</li>
                       <li className="list-group-item">React</li>
+                      <li className="list-group-item">Redux</li>
+                      <li className="list-group-item">Apollo</li>
+                      <li className="list-group-item">Ant Design</li>
+                      <li className="list-group-item">amCharts 5</li>
                       <li className="list-group-item">HTML5</li>
                       <li className="list-group-item">CSS3</li>
                     </ul>
                     <br />
                   </div>
-                  
+
                   <div className="col">
                     <div className="card-header">Back-End</div>
                     <ul className="list-group list-group-flush">
@@ -90,6 +97,8 @@ function AboutMe() {
                       <li className="list-group-item">Knex</li>
                       <li className="list-group-item">PostgreSQL</li>
                       <li className="list-group-item">Express</li>
+                      <li className="list-group-item">MongoDB</li>
+                      <li className="list-group-item">Mongoose</li>
                     </ul>
                   </div>
 

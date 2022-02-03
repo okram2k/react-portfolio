@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import react from "react";
 
 function Card() {
@@ -32,34 +33,33 @@ function Card() {
                   <br />
                   <br />
                   I am a native of Phoenix, Arizona. Born and raised in the
-                  Phoenix area and have spent most of my life here. I am not
-                  opposed to moving to find my next adventure throughout the
-                  country. I am specifically looking for opportunities with a
-                  team of great developers in the Phoenix, Dallas, or Seattle areas.
+                  Phoenix area and have spent most of my life here. I now live
+                  in Dallas, Texas and am looking for a remote job that will
+                  allow me to move wherever I may roam.
                   <br />
                   <br />
                   <h5>
-                  <a
-                    href="https://www.linkedin.com/in/marko-fithian-427891204/"
-                    target="_blank"
-                  >
-                    LinkedIn
-                  </a>
-                  &nbsp; - &nbsp;
-                  <a href="https://github.com/okram2k" target="_blank">
-                    GitHub
-                  </a>
-                  &nbsp; - &nbsp;
-                  <a
-                    href="https://docs.google.com/document/d/16p38rK6oskvAI3RaYMY2P1OAuCOC_ilidtL9MmTaBoE/edit?usp=sharing"
-                    target="_blank"
-                  >
-                    Resume
-                  </a>
+                    <a
+                      href="https://www.linkedin.com/in/marko-fithian-427891204/"
+                      target="_blank"
+                    >
+                      LinkedIn
+                    </a>
+                    &nbsp; - &nbsp;
+                    <a href="https://github.com/okram2k" target="_blank">
+                      GitHub
+                    </a>
+                    &nbsp; - &nbsp;
+                    <a
+                      href="https://docs.google.com/document/d/16p38rK6oskvAI3RaYMY2P1OAuCOC_ilidtL9MmTaBoE/edit?usp=sharing"
+                      target="_blank"
+                    >
+                      Resume
+                    </a>
                   </h5>
                 </p>
                 <p className="card-text">
-                  <small className="text-muted">Last updated 4/7/2021</small>
+                  <small className="text-muted">Last updated 2/3/2022</small>
                 </p>
               </div>
             </div>
